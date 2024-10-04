@@ -9,7 +9,7 @@ import {
   Slider,
   Text,
   Select,
-} from "console-ui";
+} from "v4console-ui";
 
 function App() {
   const [sliderVal, setSliderVal] = useState(0);
