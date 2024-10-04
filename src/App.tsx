@@ -4,7 +4,6 @@ import {
   ASCIImage,
   Block,
   Button,
-  HorizontalSplit,
   Input,
   Loader,
   Slider,
@@ -91,7 +90,7 @@ function App() {
         className="flex items-center justify-around flex-wrap"
       >
         <Select
-          value={0}
+          value={selectVal}
           onChange={(e) => {
             setSelectVal(e);
           }}
