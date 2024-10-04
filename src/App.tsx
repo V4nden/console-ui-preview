@@ -15,10 +15,7 @@ function App() {
   const [sliderVal, setSliderVal] = useState(0);
   const [selectVal, setSelectVal] = useState(0);
   return (
-    <Block
-      title="block"
-      className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-    >
+    <Block title="block" className="grid">
       <Block
         title="button"
         className="flex items-center justify-around flex-wrap"
